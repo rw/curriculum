@@ -118,11 +118,12 @@ Because you must define a schema to store data in a relational database, some de
 
 ### Guided Practice
 
-- Install Postgres locally
-- Connect to Postgres with the commandline client, then:
-  - Create a _database_
-  - Create a _table_
-  
+- Install one of Postgres, MySQL, or MariaDB locally
+- Start the database server
+- Connect to the database with the command-line client, then:
+  - Create a _database_ (which means a collection of tables inside a database server)
+  - Think of a person, place, or thing for which you would like to create data, and create a database table to model that data. For example, in the lesson slides, we showed a "world" table containing countries, each of which had fields like "name", "continent", "population", etc. Remember that each row in the table corresponds to one "thing", and each field is a "property" of that thing.
+  - 
   
 Have the students work with you as you do something.
 
